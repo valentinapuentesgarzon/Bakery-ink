@@ -1,0 +1,29 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+}
+
+
+
+
+.container {
+    height: 100%;
+    display: flex;
+    background-color: blue;
+    flex-direction: row;
+    justify-content: stretch;
+    align-items: center;
+}
+
+.container h3 {
+    background-color: blueviolet;
+    padding: 10px;
+    margin: 10px;
+
+}

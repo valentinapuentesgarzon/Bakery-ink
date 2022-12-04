@@ -1,0 +1,621 @@
+@font-face {
+    font-family: "Lobster-two-bold";
+    src: url(Fuentes/Lobster/LobsterTwo-Bold.ttf) format("truetype");
+} 
+
+@font-face {    
+    font-family: "Lobster-two-regular";
+    src: url(Fuentes/Lobster/LobsterTwo-Regular.ttf) format("truetype");
+} 
+
+@font-face {
+    font-family: "Livvic-medium";
+    src: url(Fuentes/Livvic/Livvic-Medium.ttf) format("truetype");
+} 
+@font-face {
+    font-family: "Livvic-black";
+    src: url(Fuentes/Livvic/Livvic-Black.ttf) format("truetype");
+} 
+
+
+*{
+    margin:0;
+
+}
+
+html, body {
+    height: 100%;
+}
+
+/* Header ----------------------------------*/
+
+nav {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.315), rgba(0, 0, 0, 0.342)), url(Imágenes/banner.png);
+
+}
+
+
+.logo img{  
+    width: 2.5rem;
+    height: 2.5rem;
+    position: relative;
+    margin-top: 0.625rem;
+} 
+
+.navbar{
+    width: 100%;
+    display: flex; 
+    justify-content: space-between;
+    flex-direction: row; 
+    
+}
+
+.navbar a {
+    font-size: 0.8125rem;
+    font-family: "Lobster-two-bold";
+    margin: 0.75rem;
+    text-decoration: none;
+    color: #fff;
+}
+
+.grupo1nav {
+    width: 45%;
+    display: flex;
+    justify-content: center;
+}
+
+.logo {
+    width: 10%; 
+    display: flex;
+    justify-content: center;
+    
+}
+
+.grupo2nav {
+    width: 45%; 
+    display: flex;
+    justify-content: center;
+}
+
+.rectangulo {
+    background-color: #00B291;
+    width: 23.4375rem;
+    height: 2.375rem;
+    margin-top: -3.125rem;
+    border-radius: 0 0 1.875rem 1.875rem;
+
+} 
+
+.titulos h1 {
+    font-family: "Lobster-two-bold";
+    color: #fff;
+    font-size: 25px;
+}
+
+.titulos p {
+    font-family: "Livvic-black";
+    color: #fff;
+    font-size: 10px;
+}
+
+.titulos {
+    margin: 4.375rem 0 0.75rem 0.75rem;
+    padding-bottom: 0.75rem;
+}
+
+/* fin del header ------------------------------ */
+
+/* porqué amamos los postres --------------------*/
+
+.texto-postres h1 {
+    font-family: "Lobster-two-bold";
+    color: #F96425;
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 0.6875rem;
+
+}
+
+.texto-postres p {
+    font-family: "Livvic-medium"; 
+    color: #000000;
+    font-size: 12px;
+    margin: 0.6875rem 1.25rem 0.6875rem 0.6875rem;
+    text-align: justify; 
+
+}
+
+ .Ir-al-recetario b{
+    font-family: "Livvic-black";  
+    color: black;
+    font-size: 13px;
+    text-align: center;
+
+}
+
+.postres {
+    width: 100%;
+    display: flex;
+    margin: 0;
+
+}
+
+.cupcakes {
+    width: 15%;
+    
+}
+
+.cupcakes img {
+    width: 1.875rem ;
+    height: 2.0625rem ;
+    margin: 0.3125rem 0.3125rem;
+    margin-left: 1rem;
+}
+
+.texto-postres {
+    width: 85%;
+     
+}
+
+.boton{
+    display: flex;
+    justify-content: center;
+    
+}
+
+button {
+    width: 9.375rem; 
+    height: 1.875rem; 
+    border-radius: 0.625rem;
+    border: 0px;
+    background-color: #FEBE00;
+}
+
+
+.Boton-recetas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+/* sección recetas más valoradas */
+
+.titulo-1 {
+    font-family: "Lobster-two-bold";
+    color: #F96425;
+    font-size: 20px;
+    margin: 0.625rem 0 1.0625rem 1.125rem;
+}
+
+.recetas p {
+    font-family: "Livvic-medium";
+    color: #ffffff;
+    font-size: 12px;
+    margin-left: 0.3125rem;
+}
+
+.recetas {
+    margin: 0;
+    display: grid;
+    justify-content: center;
+    margin: 0 18px 35px 18px;
+}
+
+.cards-postres {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    column-gap: 0.625rem;
+    row-gap: 0.625rem;
+    z-index: 1;
+    
+}
+
+.cardpostre {
+    height: 115px;
+    width: 150px;
+    border-radius: 10px;
+    display: flex;
+    align-items: flex-end;
+    margin: 0rem;
+}
+
+.caja{
+    background-color: #00000069;
+    display: flex;
+    align-items: flex-end;
+    border-radius: 0 0 0.625rem 0.625rem;
+    width: 100%;
+    
+}
+
+#uno {
+    background-image: url(Imágenes/Recetas/tarta\ de\ queso\ con\ mermelada\ de\ arandonos.jpeg);
+    background-size: cover;
+}
+
+#dos {
+    background-image: url(Imágenes/Recetas/tiramisu.jpeg);
+    background-size: cover;
+} 
+
+#tres {
+    background-image: url(Imágenes/Recetas/Panna\ Cotta.jpeg);
+    background-size: cover;
+} 
+
+#cuatro {
+    background-image: url(Imágenes/Recetas/arroz\ con\ leche\ de\ coco.jpeg);
+    background-size: cover;
+} 
+
+#cinco {
+    background-image: url(Imágenes/Recetas/crema\ de\ papaya.jpeg);
+    background-size: cover;
+} 
+
+#seis {
+    background-image: url(Imágenes/Recetas/mouse\ de\ fresa.jpeg);
+    background-size: cover;
+} 
+
+.Boton-recetas b {
+    font-family: "Livvic-black";  
+    color: black;
+    font-size: 13px;
+    text-align: center;
+}
+
+.figura {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 21.25rem;
+    height: 25rem;
+    background: #F96425;
+    border-radius: 20px;
+
+}
+
+.triangulo {
+    width: 21.25rem;
+    height: 5rem;
+    background: white;
+    border-top: solid transparent 60px;
+    border-right: solid #F96425 340px;
+    border-bottom: solid #F96425 30px;
+
+    }
+
+.figurapostre {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+    margin-top: -28.125rem;
+    margin-bottom: 4.0625rem;
+}
+
+/* sección favoritos de la semana */
+
+.titulo-2 {
+    font-family: "Lobster-two-bold";
+    color: #FFFFFF;
+    font-size: 16px;
+    margin: 0.625rem 0 0.625rem 0rem;
+}
+
+.restaurante p {
+    font-family: "Livvic-medium";
+    color: #FFFFFF;
+    font-size: 12px;
+    margin-left: 0.3125rem;
+}
+
+.restaurante {
+    height: 7.1875rem;
+    width: 9.375rem;
+    border-radius: 0.625rem;
+    display: flex;
+    align-items: flex-end;
+    margin: 0px;
+}
+
+.favoritosSemana {
+    background-color: #00B291;
+    display: grid;
+    justify-content: center;
+    padding-bottom: 0.625rem;
+}
+.cards-favoritos {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    column-gap: 0.625rem;
+    row-gap: 0.9375rem;
+   
+
+}
+
+.contenedor {
+    background-color: #00000069;
+    display: flex;
+    align-items: flex-end;
+    border-radius: 0 0 0.625rem 0.625rem;
+    width: 100%;
+}
+
+#R1 {
+    background-image: url(Imágenes/Restaurantes/brazo\ de\ reina.jpeg);
+    background-size: cover;
+}
+
+#R2 {
+    background-image: url(Imágenes/Restaurantes/pan\ de\ chocolate.jpeg);
+    background-size: cover;
+} 
+
+#R3 {
+    background-image: url(Imágenes/Restaurantes/croassant\ de\ almendras.jpeg);
+    background-size: cover;
+} 
+
+#R4 {
+    background-image: url(Imágenes/Restaurantes/dulce\ de\ mora.jpeg);
+    background-size: cover;
+} 
+
+/* -------------Formulario------------------ */
+
+
+/* estilos letras */
+
+.texto h1 {
+    font-family: "Lobster-two-bold";
+    color: #F96425;
+    font-size: 22px;
+}
+
+.texto h2 {
+    font-family: "Livvic-medium";
+    color: #00B291;
+    font-size: 14px;
+}
+
+label, p, button{
+    font-family: "Livvic-black";
+    color: #000000;
+    font-size: 12px;
+}
+
+.texto {
+    margin: 10px 30px 10px 20px;
+}
+
+/* datos */
+
+.datos {
+    display: flex;
+    flex-flow: column;
+    margin: 10px 0 10px 20px;
+}
+    
+
+ .datos input {
+    width: 260px;
+    height: 25px;
+    border: solid #FEBE00 2px;
+    border-radius: 20px;
+}
+
+.text {
+    margin: 10px 0 5px 20px;
+}
+
+/* recomendaciones */
+
+.recomendaciones {
+    display: grid;
+    grid-template-columns: 25% 25% 25%;
+    justify-content: space-evenly;
+    
+    
+    
+
+}
+
+input[type="radio"] {
+    display: none;
+} 
+
+.box {
+    display: grid;
+    grid-template-columns: 25% 75%;
+}
+
+
+.circle {
+    display: inline-block; 
+    box-sizing: border-box;
+    border: 2px solid #FEBE00;
+	border-radius: 50%;
+	cursor: pointer;
+    height: 20px;
+    width: 20px;
+}
+
+.selector {
+    height: 12px;
+    width: 12px;
+    box-sizing: border-box;
+    background-color: #FEBE00;
+	border-radius: 50%;
+    margin-top: -16px;
+    margin-left: 4px;
+    opacity: 0;
+
+}
+
+/* selector animation */
+
+#Receta:checked ~ #S1 {
+    opacity: 3; 
+}
+
+#Restaurante:checked ~ #S2 {
+    opacity: 3; 
+}
+
+#otro:checked ~ #S3 {
+    opacity: 3; 
+}
+
+
+
+
+/* Mensaje */
+
+.mensaje {
+    display: flex;
+    flex-flow: column;
+    margin: 10px 0 5px 20px;
+}
+
+
+.mensaje ::placeholder {
+    font-family: "Livvic-black";
+    color: #000000;
+    font-size: 12px;
+}
+
+textarea {
+    width: 260px;
+    height: 60px;
+    border: solid #FEBE00 2px;
+    border-radius: 10px;
+}
+
+button[type="submit"] {
+    width: 70px;
+    height: 30px;
+    border-radius: 10px;
+    margin: 10px 10px 40px 200px;
+}
+
+.circulo-pie {
+    width: 120px;
+    height: 120px;
+    background-color: #00B291;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -120px;
+    margin-left: 250px;
+
+}
+
+.imagen-pie {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-image: url(Imágenes/tarta.jpeg);
+    background-size: cover;
+}
+/* Footer */
+
+footer {
+    display: flex;
+    width: 100%;
+    padding: 0.75rem 0 0.75rem 0;
+    background-color:#FEBE00 ;
+    
+}
+
+.imagen {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.imagen img {
+    width: 60px;
+    padding-left: 2.5rem;
+    
+}
+
+.redes img {
+    width: 15%;
+    margin: 0.3125rem;
+}
+
+
+.contenedor-redes {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin-left: -40px;
+}
+
+.img-redes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+} 
+
+
+
+.texto-f p {
+    font-size: 8px;
+    font-family: "Livvic-medium";
+    text-align: center;
+}
+
+
+/* --------------- Responsive ------------------- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
